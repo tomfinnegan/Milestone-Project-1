@@ -5,25 +5,21 @@
 
 .navbar { 
   text-align:right; 
+  padding: 0;
 } 
 #exCollapsingNavbar { 
-  text-align:left; 
-    
+  text-align:left;   
 
-
-
-
-
-
+  }
+.responsive {
+  width: 100%;
+  height: auto;
+}
+  
 }
 
-h2 {
-    text-align: center;
-
+@media screen and (min-width:480px) {  
+  selector {
+    display: none;
+  }
 }
-
-.container-fluid {
-background-color: brown;
-}
-
- 
