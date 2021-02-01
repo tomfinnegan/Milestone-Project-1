@@ -1,12 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
 
-/*--------------------------------------------heading */
+/*--------------------------------------------navbar */
 
 
-.navbar { 
-  text-align:right; 
-  padding: 0;
-} 
+}
 #exCollapsingNavbar { 
   text-align:left;   
 
@@ -22,4 +19,10 @@
   selector {
     display: none;
   }
-}
+
+ 
+
+
+
+
+
