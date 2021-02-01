@@ -5,9 +5,15 @@
   h1 {
       text-align: left;
   }
+  h1{
+      text-align: center;
+  }
 
   h2{
       background-color: grey;
+  }
+ div p{
+     color: red;
   }
 .myDiv {
   border: 5px outset red;
@@ -19,6 +25,27 @@
   border: 5px outset red;
   background-color: lightblue;    
   text-align: center;
+}
+
+
+.myDiv {
+  border: 5px outset red;
+  background-color: lightblue;    
+  text-align: center;
+}
+.blinking{
+    animation:blinkingText 1.2s infinite;
+    
+}
+@keyframes blinkingText{
+    0%{     color: red; }
+    49%{    color: red; }
+    60%{    color: transparent; }
+    99%{    color:transparent;  }
+    100%{   color: red; }
+    color: red;
+}
+
 }
 #exCollapsingNavbar { 
   text-align:left;   
@@ -36,7 +63,6 @@
     display: none;
   }
 
-
-
-
-
+.fcf-h3 {
+    text-align: center;
+}
