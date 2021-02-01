@@ -2,7 +2,23 @@
 
 /*--------------------------------------------navbar */
 
+  h1 {
+      text-align: left;
+  }
 
+  h2{
+      background-color: grey;
+  }
+.myDiv {
+  border: 5px outset red;
+  background-color: lightblue;    
+  text-align: center;
+}
+
+.Div {
+  border: 5px outset red;
+  background-color: lightblue;    
+  text-align: center;
 }
 #exCollapsingNavbar { 
   text-align:left;   
@@ -20,12 +36,6 @@
     display: none;
   }
 
-div {
-  width: 35px;
-  height: 5px;
-  background-color: black;
-  margin: 6px 0;
-}
 
 
 
