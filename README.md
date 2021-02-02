@@ -30,13 +30,39 @@ Project name: Queen Rock Band
 
           Typography
 
-          The main font is "EXO" with sans-serif as the fall back font
+          The main font is "ROBOTO" Roboto has a dual nature. It has a mechanical skeleton and the forms are largely geometric. 
+          At the same time, the font features friendly and open curves.
+           While some grotesks distort their letterforms to force a rigid rhythm, Roboto doesn’t compromise, allowing letters to be settled into their natural width.
+           This makes for a more natural reading rhythm more commonly found in humanist and serif types.
 
+    Reference For the Information is provided by the following link [https://www.1001fonts.com/roboto-font.html]
+
+     Image: the main image in the website is to engage  with the user and to give visual appeal to the website
+  
 Wireframes 
 
-home Page Wireframe -view [https://wireframe.cc/pro/pp/f6253d3dd410886]
+home Page Wireframe -view [https://wireframe.cc/pro/pp/c83e9994e411741#1]
+
+features:
+    
+    Responsive websie on devices 
+
+    Languages used in this  Project
+
+    html
+    CSS3  
+           
+   Frameworks, Libraries & Programs Used
+
+   Bootstrap is used in the implemation of a Responsive website
+
+
+            3.	Google Fonts:     
+
+       6.	Git
 
 
 
+	Balsamiq was used to create a ireframe template of the website
         
 
