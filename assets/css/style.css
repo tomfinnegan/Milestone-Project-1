@@ -12,24 +12,25 @@
   h2{
       background-color: grey;
   }
- div p{
-     color: red;
+ p{
+     background-color: white;
+     text: red;
   }
 .myDiv {
-  border: 5px outset red;
+  
   background-color: lightblue;    
   text-align: center;
 }
 
 .Div {
-  border: 5px outset red;
+  
   background-color: lightblue;    
   text-align: center;
 }
 
 
 .myDiv {
-  border: 5px outset red;
+  
   background-color: lightblue;    
   text-align: center;
 }
