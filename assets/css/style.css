@@ -1,89 +1,15 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
 
 /*--------------------------------------------navbar */
-
-  
-  h1{
-      text-align: center;
-  }
-
-  h2{
-      background-color: grey;
-  }
-  h3 {
-      text-align: center;
-  }
- p{
-     background-color: white;
-   
-  }
-.myDiv {
-  
-  background-color: lightblue;    
-  text-align: center;
+h2 {
+    text-align: center;
+    background-color: blueviolet;
 }
 
-.blinking{
-    animation:blinkingText 1.2s infinite;
-.contact us {
-    background-color: white ;
-}
+h3 {
+    text-align: center;
+    background-color: blueviolet;
 
 }
 
-@keyframes blinkingText{
-    0%{     color: red; }
-    49%{    color: red; }
-    60%{    color: transparent; }
-    99%{    color:transparent;  }
-    100%{   color: red; }
-    color: red;
-}
-
-}
-#exCollapsingNavbar { 
-  text-align:left;   
-
-  }
-.responsive {
-  width: 100%;
-  height: auto;
-}
-  
-}
-
-@media screen and (min-width:480px) {  
-  selector {
-    display: none;
-  }
-
-body {font-family: Arial, Helvetica, sans-serif;}
-* {box-sizing: border-box;}
-
-input[type=text], select, textarea {
-  width: 100%;
-  padding: 12px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  box-sizing: border-box;
-  margin-top: 6px;
-  margin-bottom: 16px;
-  resize: vertical;
-}
-
-input[type=submit] {
-  background-color: #4CAF50;
-  color: white;
-  padding: 12px 20px;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-}
-
-input[type=submit]:hover {
-  background-color: #45a049;
-}
-
-.mb-4 {
-    border-color: darkred;
-}
+background url:()
