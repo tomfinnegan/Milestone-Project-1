@@ -1,4 +1,4 @@
-Project name:    Queen Rock Band live site[]
+Project name:    Queen Rock Band live site[https://tomfinnegan.github.io/Milestone-Project-1/]
 
  User Experience (UX)
 
