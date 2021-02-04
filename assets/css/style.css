@@ -1,19 +1,52 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
 
-/*--------------------------------------------navbar */
+
 body{
     background-color: antiquewhite;
 }
-
+/*--------------------------------------------navbar */
 .navbar-inverse { 
-  background-color: grey!important; 
+  background-color: #d3d3d3!important; 
 }
+
 .responsive {
   width: 100%;
   height: auto;
+
+}
+.title {    
+color: white;
+font-family: arial, sans-serif;
+font-size: 24px;
+font-weight: bold;
+margin-top: 10px;
+margin-bottom: 1px;
+
+}
+li a {    
+
+font-family: arial, sans-serif;
+font-size: 16px;
+font-weight: bold;
+margin-top: 0px;
+margin-bottom: 1px;
+
+/*--------------------------------------------Image responsive */
+}
+img {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 150px;
 }
 
+img:hover {
+  box-shadow: 0 0 2px 1px red;
+}
+/*--------------------------------------------Headings */
+
 h2 {
+   
     text-align: center;
     font-size: 1.5em;
     background-color: #ccc;
@@ -33,6 +66,15 @@ h3 {
      text-align: center;
     animation:blinkingText 1.2s infinite;
    
+
+    @media screen and (max-width: 767px) {
+  .navbar-brand {
+   max-width: 90%;
+   display: block;
+ }
+}
+
+
 }
 @keyframes blinkingText{
     
