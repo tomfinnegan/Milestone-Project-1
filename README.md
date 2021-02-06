@@ -85,6 +85,9 @@ Content
 Media
 •	The photos used in this site were obtained from  the following website: [https://www.bing.com/images/search?view=detailV2&ccid=YyMqe0jM&id=5D3B9D391AAC157529D212243985582516EB9CA3&thid=OIP.YyMqe0jMhe1Kd7HaU6zKOQHaE9&mediaurl=https%3a%2f%2fi.pinimg.com%2foriginals%2f8c%2fc9%2f50%2f8cc950ea7b83e7548e9a2ae9157bd00e.jpg&exph=1372&expw=2048&q=queen+rock+band+history&simid=608030287288274568&ck=38850269EAC3115DB4B6026438CAD64C&selectedIndex=16&FORM=IRPRST&ajaxhist=0]
 
+validation of the website from w3c validator
+
+
     Acknowledgements
 
 Google fonts 
