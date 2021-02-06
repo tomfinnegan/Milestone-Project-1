@@ -1,12 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
 
 
-body{
-    background-color: white;
-}
 /*--------------------------------------------navbar */
 .navbar-inverse { 
   background-color: #d3d3d3!important; 
+  border: 3px solid #8AC007;
 }
 
 .responsive {
@@ -22,6 +20,9 @@ font-weight: bold;
 margin-top: 10px;
 margin-bottom: 1px;
 
+
+ 
+
 }
 li a {    
 
@@ -30,6 +31,7 @@ font-size: 16px;
 font-weight: bold;
 margin-top: 0px;
 margin-bottom: 1px;
+
 
 /*--------------------------------------------Image responsive */
 }
@@ -44,6 +46,7 @@ h2 {
    
     text-align: center;
     font-size: 1.5em;
+    border: 3px solid #8AC007;
     background-color: #ccc;
     margin: 20px;
     padding: 40px;
@@ -52,9 +55,16 @@ h2 {
 h3 {
     text-align: center;
     font-size: 1.5em;
+    border: 3px solid #8AC007;
     background-color: #ccc;
     margin: 20px;
     padding: 40px;
+}
+.contact-heading {   
+  margin: 20px;
+  border: 3px solid #8AC007;
+  background-color: #ccc;
+  padding: 40px;
 }
 
 .blinking{
@@ -122,5 +132,6 @@ h3 {
 footer {
     text-align: center;
     background-color: grey;
+    border: 3px solid #8AC007;
 }
  
