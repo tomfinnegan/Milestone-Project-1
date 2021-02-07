@@ -93,3 +93,6 @@ validation of the website from w3c validator
 Google fonts 
 bing for the image 
 wikipedia for paragraph text 
+
+pages tested on w3cvalidator
+all pages passed 
