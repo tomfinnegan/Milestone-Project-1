@@ -8,85 +8,111 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
    <link rel="stylesheet" href="assets/css/style.css" type="text/css"/> 
-   <title>Queen</title>
+  
  </head>
-    <header>
-  <nav class="navbar navbar-inverse">
-  <div class="container-fluid">
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>                        
-      </button>
-      <h1 class="title">Queen</h1>
-      
-     </div>
-      
+   
+
+  
+   <nav id="hamNav">
+         <h1>Queen</h1>
+  <!-- (A) HAMBURGER ICON -->
+  <label for="hamburger">&#9776;</label>
+  <input type="checkbox" id="hamburger"/>
+
+  <!-- (B) MENU ITEMS -->
+  <div id="hamItems">
+    <a href="index.html">Home</a>
+
+    <a href="about-us.html">About us</a>
+    <a href="concert_dates.html">Concert details</a>
+    <a href="contact-us.html">Contact us</a>
      
-      <ul class="nav navbar-nav navbar-right">
-       <div class="collapse navbar-collapse" id="myNavbar">
-      <ul class="nav navbar-nav">       
-        <li class="dropdown"> 
-          
-        <nav aria-label="Page navigation example">
-  <ul class="pagination justify-content-end">
-    
-    <li class="page-item"><a class="page-link" href="index.html">home</a></li>
-    <li class="page-item"><a class="page-link" href="about-us.html">about us</a></li>
-    <li class="page-item"><a class="page-link" href="concert_dates.html">concert details</a></li>
-    <li class="page-item"><a class="page-link" href="contact.html">contact us</a></li>
-    <li class="page-item">
-     
-    </li>
-  </ul>
+  </div>
 </nav>
-      </li>          
-     </ul>
-   </div>  
- </div>  
-      
+    
+                
+<div class="fcf-body">
 
- </header>
+    <div id="fcf-form">
+    <h3 class="fcf-h3">Contact us</h3>
 
-
-  
-  
-  
-
-  
-                <h3 class="contact-heading uppercase text-center">Contact Us</h3>
-                 <div class="center-form">
-                    <form>
-                        <input type="text"name="name"id="fullname"class="form-control"placeholder="Name"required/>
-                        <input type="email"name="email"id="emailaddress" class="form-control"placeholder="Email Address"reqiured/>
-                        <textarea row="5"name="query"id="query"class="form-control"placeholder="Query"required></textarea>
-                        <div class="form-row text-center">
-                            <div class="col">
-                                <button type="submit"class="btn btn-secondary">Send </button> 
-
-                            </div>
-                        </div>
-                    </form>
-                </div>
+    <form id="fcf-form-id" class="fcf-form-class" method="post" action="contact-form-process.php">
+        
+        <div class="fcf-form-group">
+            <label for="Name" class="fcf-label">Your name</label>
+            <div class="fcf-input-group">
+                <input type="text" id="Name" name="Name" class="fcf-form-control" required>
             </div>
         </div>
-    </section>
-<footer>
-  
-    <p style="color:white;"text-align:center"><span style="font-size:12px">Social Media Links:</span></p>
-<p style="text-align:center">
+
+        <div class="fcf-form-group">
+            <label for="Email" class="fcf-label">Your email address</label>
+            <div class="fcf-input-group">
+                <input type="email" id="Email" name="Email" class="fcf-form-control" required>
+            </div>
+        </div>
+
+        <div class="fcf-form-group">
+            <label for="Message" class="fcf-label">Your message</label>
+            <div class="fcf-input-group">
+                <textarea id="Message" name="Message" class="fcf-form-control" rows="6" maxlength="3000" required></textarea>
+            </div>
+        </div>
+
+        <div class="fcf-form-group">
+            <button type="submit" id="fcf-button" class="fcf-btn fcf-btn-primary fcf-btn-lg fcf-btn-block">Send Message</button>
+        </div>
+
+        <div class="fcf-credit" id="fcf-credit">
+       
+        </div>
+
+    </form>
+    </div>
+
+</div>
+
+    
+
+
+
+
+
+    
+ 
+
+
+
+
+    <footer class="bg-light text-center text-lg-start">
+  <!-- Copyright -->
+  <p style="text-align:center">
 <a href="#" class="fa fa-facebook"></a>
 <a href="#" class="fa fa-twitter"></a>
 <a href="#" class="fa fa-youtube"></a>
 <a href="#" class="fa fa-instagram"></a>
 </p>
-<p>Author: Thomas Finnegan</p>
+  
+  
+  <!-- Copyright -->
+</footer>
 
-  <p><a href="thomas_finnegan@yahoo.ie">thomas_finegan@yahoo.ie</a></p>
- 
-    </footer>   
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+
    
 
   </body>
