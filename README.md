@@ -51,9 +51,7 @@ Project name:    Queen Rock Band live site[https://tomfinnegan.github.io/Milesto
   
 Wireframes: 
 
-home Page Wireframe -view link here [https://wireframe.cc/pro/pp/c83e9994e411741#1]
-
-features:
+home Page Wireframe -view link here [..assets/website-template---Wireframe-cc-Premium (2).pdf
     
     Responsive websie on devices 
 
